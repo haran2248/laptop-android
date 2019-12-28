@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Laptop</string>
+    <string name="title_activity_lenovo">LENOVO</string>
+    <string name="title_activity_dell">DELL</string>
+    <string name="title_activity_testa">testa</string>
+</resources>

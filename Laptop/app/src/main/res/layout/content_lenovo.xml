@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LENOVO"
+    tools:showIn="@layout/activity_lenovo"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/len1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Lenovo Legion Y540 9th Gen Core Intel i7 15.6 inch FHD Gaming Laptop (16GB RAM/1TB HDD + 256 GB SSD/Windows 10 Home/6GB NVIDIA GTX 1660 Ti Graphics/Black/2.3 Kg), 81SX00F0IN"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/len2"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i5-8265U/Win10/ OFFICE H and S 2019/8GB/ 1TB SSD/NVIDIA MX250 2GB GDDR5/15.6 FHD IPS Anti-glare/ 300 nits/MINERAL GREY"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/len3"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lenovo Ideapad S145 8th Gen Intel Core i5 15.6 inch FHD Thin and Light Laptop ( 8GB RAM/1 TB HDD + 256 GB SSD/Windows 10/MS Office 2019/ Gray/1.85 Kg), 81MV00WRIN"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

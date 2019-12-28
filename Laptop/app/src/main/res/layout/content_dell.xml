@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DELL"
+    tools:showIn="@layout/activity_dell"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dell1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dell Inspiron 3480 14-inch Thin and Light Laptop (8th Gen Intel Core i5-8265U/8GB/1TB HDD/Window 10 Home + MS Office/Intel UHD Graphics), Silver"
+        >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dell2"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dell Inspiron 15 5584 (Core i5-8th Gen/8GB RAM/1TB HDD + 512 SSD/15.6 FHD/Windows 10/2GB Nvidia Graphics/MS Office/Backlit Keyboard) (Ink Blue, 1.9kg)"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dell3"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#CA2222"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dell Inspiron 5370 Intel Core i5 8th Gen 13.3-inch FHD Thin and Light Laptop (8GB/256GB SSD/Windows 10 Home/MS Office/Silver/1.50kg)"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
